@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 Habit Coach Frontend
 
-## Getting Started
+> Build consistent habits with AI-powered coaching
+> **Aariyatech UK Community Project**
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 📊 **Dashboard** - Track habits with real-time progress
+- 💡 **AI Suggest** - Get personalized recommendations
+- 📋 **AI Plan** - Set daily goals and commitments
+- 💭 **AI Reflect** - Review progress with insights
+- 📈 **Analytics** - View detailed statistics
+- 🎨 **Responsive** - Works on all devices
+
+---
+
+## 🚀 Quick Start
+
+**Prerequisites:** Node.js 16+
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) 🎉
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+src/app/
+├── layout.js              # Main wrapper
+├── page.js               # Dashboard home
+├── globals.css           # All styles
+├── suggest/page.js       # Suggest page
+├── plan/page.js          # Plan page
+├── reflect/page.js       # Reflect page
+├── analytics/page.js     # Analytics page
+└── settings/page.js      # Settings page
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧭 Routes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+File structure = URL routes in Next.js:
 
-## Deploy on Vercel
+| File                | Route        |
+| ------------------- | ------------ |
+| `page.js`         | `/`        |
+| `suggest/page.js` | `/suggest` |
+| `plan/page.js`    | `/plan`    |
+| `reflect/page.js` | `/reflect` |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Available Commands
+
+```bash
+npm run dev      # Development server
+npm run build    # Production build
+npm start        # Start production server
+npm run lint     # Run linter
+```
+
+---
+
+## 🤝 Contributing
+
+1. Fork the main repo
+2. Create a branch: `git checkout -b feat/your-feature`
+3. Make changes and test: `npm run dev`
+4. Commit: `git commit -m "feat: description"`
+5. Push and open a PR
+
+**Good first tasks:**
+
+- Enhance UI pages
+- Add form validation
+- Add tests
+- Improve responsive design
+
+---
+
+## 📚 Resources
+
+- [Next.js Docs](https://nextjs.org/docs)
+- [React Docs](https://react.dev)
+- [MDN Web Docs](https://developer.mozilla.org/)
+
+---
+
+## 📞 Help
+
+- [GitHub Issues](https://github.com/Aariyatech-UK/ai-community-hub/issues)
+- [GitHub Discussions](https://github.com/Aariyatech-UK/ai-community-hub/discussions)
+
+---
+
+
+**Happy coding! 🚀**
