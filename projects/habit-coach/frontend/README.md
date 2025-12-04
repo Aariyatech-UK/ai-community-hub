@@ -1,6 +1,6 @@
 # 🎯 Habit Coach Frontend
 
-> Build consistent habits with AI-powered coaching  
+> Build consistent habits with AI-powered coaching
 > **Aariyatech UK Community Project**
 
 ---
@@ -49,18 +49,12 @@ src/app/
 
 File structure = URL routes in Next.js:
 
-| File | Route |
-|------|-------|
-| `page.js` | `/` |
+| File                | Route        |
+| ------------------- | ------------ |
+| `page.js`         | `/`        |
 | `suggest/page.js` | `/suggest` |
-| `plan/page.js` | `/plan` |
+| `plan/page.js`    | `/plan`    |
 | `reflect/page.js` | `/reflect` |
-
----
-
-## 🎨 Styling
-
-Pure CSS (no frameworks) - easy to extend and learn!
 
 ---
 
@@ -84,36 +78,11 @@ npm run lint     # Run linter
 5. Push and open a PR
 
 **Good first tasks:**
+
 - Enhance UI pages
 - Add form validation
 - Add tests
 - Improve responsive design
-
----
-
-## 🔗 Connect to Backend
-
-Replace mock data with API calls:
-
-```javascript
-// src/app/lib/api.js
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
-
-export async function getHabits() {
-  const response = await fetch(`${API_BASE}/habits`);
-  return response.json();
-}
-```
-
----
-
-## 🗺️ Roadmap
-
-- ✅ MVP dashboard
-- 📌 Backend API integration
-- 📌 User authentication
-- 📌 Mobile app
-- 📌 Dark mode
 
 ---
 
@@ -132,10 +101,5 @@ export async function getHabits() {
 
 ---
 
-## 📄 License
-
-ISC
-
----
 
 **Happy coding! 🚀**
